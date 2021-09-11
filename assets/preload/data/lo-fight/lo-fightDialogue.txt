@@ -1,0 +1,9 @@
+whitty:left bf:right
+:0:talk:0.05:0:..Who-
+:1:talk:0.05:1:beep boop
+:0:talk:0.05:0:oh, you two.
+:0:talk:0.05:0:Would both of you kindly leave me alone? \nI don't want anyone knowin' I'm here.
+:1:talk:0.05:1:bip boop beep 
+:0:talk:0.05:0:...Listen, I ain't lookin' for trouble tonight, \njust leave and all will be cool.
+:1:talk:0.05:1:beepo bap skeboop 
+:0:talk:0.05:0:...

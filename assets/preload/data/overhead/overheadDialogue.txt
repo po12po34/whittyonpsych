@@ -1,0 +1,8 @@
+whitty-a:left bf:right
+:0:talk:0.05:0:I see how it is.
+:1:talk:0.05:1:brep bappity boop 
+:0:talk:0.05:0:You're really pushing my limits, dude.
+:1:talk:0.05:1:bip bep skoo de boop
+:0:talk:0.05:0:Well how about you go die in a ditch instead.
+:1:talk:0.05:1:bepoobee skoop 
+:0:talk:0.05:0:...Don't make me do this. 
