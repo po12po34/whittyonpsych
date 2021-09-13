@@ -46,6 +46,11 @@ class Note extends FlxSprite
 					colorSwap.hue = 0;
 					colorSwap.saturation = 0;
 					colorSwap.brightness = 0;
+				case 4: //Hurt note
+					reloadNote('HURT');
+					colorSwap.hue = 0;
+					colorSwap.saturation = 0;
+					colorSwap.brightness = 0;
 
 				default:
 					colorSwap.hue = ClientPrefs.arrowHSV[noteData % 4][0] / 360;

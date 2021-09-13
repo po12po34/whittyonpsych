@@ -36,6 +36,8 @@ class NoteSplash extends FlxSprite
 			switch(noteType) {
 				case 3: //Hurt note
 					loadAnims('HURT' + skin);
+				case 4: //die note
+					loadAnims('HURT' + skin);
 
 				default:
 					loadAnims(skin);

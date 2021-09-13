@@ -50,13 +50,13 @@ class DialogueBoxPsych extends FlxSpriteGroup
 				char.animation.addByPrefix('talk', 'BF portrait enter instance', 24, true); //During dialogue
 				char.flipX = !char.flipX;
 
-			case 'whitty':
-				char.frames = Paths.getSparrowAtlas('dialogue/whittyPort');
-				char.animation.addByPrefix('talkIdle', 'Whitty Portrait Normal instance', 24, true);
-				char.animation.addByPrefix('talk', 'Whitty Portrait Normal instance', 24, true);
-				char.animation.addByPrefix('angryIdle', 'Whitty Portrait Agitated instance', 24, true);
-				char.animation.addByPrefix('angry', 'Whitty Portrait Agitated instance', 24, true);
-				char.y += 70;
+			case 'whitty': //
+				char.frames = Paths.getSparrowAtlas('dialogue/whittyPort'); //
+				char.animation.addByPrefix('talkIdle', 'Whitty Portrait Normal instance', 24, true); //
+				char.animation.addByPrefix('talk', 'Whitty Portrait Normal instance', 24, true); //
+				char.animation.addByPrefix('angryIdle', 'Whitty Portrait Agitated instance', 24, true); //
+				char.animation.addByPrefix('angry', 'Whitty Portrait Agitated instance', 24, true); //
+				char.y += 70; //
 
 			case 'whitty-a':
 				char.frames = Paths.getSparrowAtlas('dialogue/whittyPort');

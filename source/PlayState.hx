@@ -626,6 +626,155 @@ class PlayState extends MusicBeatState
 						// bg.setGraphicSize(Std.int(bg.width * 2.5));
 						// bg.updateHitbox();  
 
+				case 'parish':
+
+						defaultCamZoom = 0.7;
+						curStage = 'parish';
+						var bg:BGSprite = new BGSprite('base', -600, -200, 2, 2);
+						add(bg);
+	/*
+						var stageFront:BGSprite = new BGSprite('floor', -650, 600, 1.2, 1.2);
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						add(stageFront);
+	
+						
+						if(!ClientPrefs.lowQuality) // 여기 중괄호? 달아야함
+							var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							add(stageLight);
+							var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							stageLight.flipX = true;
+							add(stageLight);
+	
+							var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+							stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+							stageCurtains.updateHitbox();
+							add(stageCurtains);
+
+							*/
+						
+							
+				case 'worship':
+
+						defaultCamZoom = 0.7;
+						curStage = 'worship';
+						var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+						add(bg);
+		
+						var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						add(stageFront);
+		
+						if(!ClientPrefs.lowQuality) {
+							var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							add(stageLight);
+							var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							stageLight.flipX = true;
+							add(stageLight);
+		
+							var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+							stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+							stageCurtains.updateHitbox();
+							add(stageCurtains);
+						}
+
+				case 'zavodila':
+
+						defaultCamZoom = 0.7;
+						curStage = 'zavodila';
+						var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+						add(bg);
+		
+						var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						add(stageFront);
+		
+						if(!ClientPrefs.lowQuality) {
+							var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							add(stageLight);
+							var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							stageLight.flipX = true;
+							add(stageLight);
+		
+							var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+							stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+							stageCurtains.updateHitbox();
+							add(stageCurtains);
+						}
+
+				case 'gospel':
+
+						defaultCamZoom = 0.5;
+						curStage = 'gospel';
+						var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+						add(bg);
+		
+						var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						add(stageFront);
+		
+						if(!ClientPrefs.lowQuality) {
+							var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							add(stageLight);
+							var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							stageLight.flipX = true;
+							add(stageLight);
+		
+							var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+							stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+							stageCurtains.updateHitbox();
+							add(stageCurtains);
+						}
+
+				case 'casanova':
+
+						defaultCamZoom = 0.7;
+						curStage = 'casanova';
+						var bg:BGSprite = new BGSprite('stageback', -600, -200, 0.9, 0.9);
+						add(bg);
+		
+						var stageFront:BGSprite = new BGSprite('stagefront', -650, 600, 0.9, 0.9);
+						stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+						stageFront.updateHitbox();
+						add(stageFront);
+		
+						if(!ClientPrefs.lowQuality) {
+							var stageLight:BGSprite = new BGSprite('stage_light', -125, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							add(stageLight);
+							var stageLight:BGSprite = new BGSprite('stage_light', 1225, -100, 0.9, 0.9);
+							stageLight.setGraphicSize(Std.int(stageLight.width * 1.1));
+							stageLight.updateHitbox();
+							stageLight.flipX = true;
+							add(stageLight);
+		
+							var stageCurtains:BGSprite = new BGSprite('stagecurtains', -500, -300, 1.3, 1.3);
+							stageCurtains.setGraphicSize(Std.int(stageCurtains.width * 0.9));
+							stageCurtains.updateHitbox();
+							add(stageCurtains);
+						}
+
+
 			default:
 				defaultCamZoom = 0.9;
 				curStage = 'stage';
@@ -690,6 +839,21 @@ class PlayState extends MusicBeatState
 			case 'mall':
 				BF_X += 200;
 
+			case 'casanova':
+				BF_X += 200;
+	
+			case 'gospel':
+				BF_X += 200;
+
+			case 'worship':
+				BF_X += 200;
+	
+			case 'zavodila':
+				BF_X += 200;
+
+			case 'parish':
+				BF_X += 200;
+		
 			case 'mallEvil':
 				BF_X += 320;
 				DAD_Y -= 80;
@@ -3255,6 +3419,39 @@ class PlayState extends MusicBeatState
 								spawnNoteSplashOnNote(note);
 							}
 							else health -= 0.06; //0.06 + 0.04 = -0.1 (-5%) of HP if you hit a hurt sustain note
+	
+							if(boyfriend.animation.getByName('hurt') != null) {
+								boyfriend.playAnim('hurt', true);
+								boyfriend.specialAnim = true;
+							}
+						}
+
+						note.wasGoodHit = true;
+						vocals.volume = 0;
+
+						if (!note.isSustainNote)
+						{
+							note.kill();
+							notes.remove(note, true);
+							note.destroy();
+						}
+					}
+					return;
+				case 4: //die note
+					if(cpuControlled) return;
+
+					if(!boyfriend.stunned)
+					{
+						noteMiss(note.noteData);
+						if(!endingSong)
+						{
+							--songMisses;
+							RecalculateRating();
+							if(!note.isSustainNote) {
+								health -= 0.96; //0.26 + 0.04 = -0.3 (-15%) of HP if you hit a hurt note
+								spawnNoteSplashOnNote(note);
+							}
+							else health -= 0.46; //0.06 + 0.04 = -0.1 (-5%) of HP if you hit a hurt sustain note
 	
 							if(boyfriend.animation.getByName('hurt') != null) {
 								boyfriend.playAnim('hurt', true);

@@ -1,0 +1,142 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				41,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "SarventeLeft"
+		},
+		{
+			"offsets": [
+				50,
+				-40
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "SarventeDown"
+		},
+		{
+			"offsets": [
+				-47,
+				10
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "SarventeUp"
+		},
+		{
+			"offsets": [
+				-30,
+				-3
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "SarventeRight"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "SarventeIdle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"fps": 24,
+			"anim": "idle-loop",
+			"loop": true,
+			"name": "SarventeIdle"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "SarventeLeft"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "SarventeRight"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "SarventeUp"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sarvente_sheet",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sarvente",
+	"flip_x": false,
+	"healthbar_colors": [
+		246,
+		145,
+		197
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

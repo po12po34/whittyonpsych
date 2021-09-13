@@ -1,0 +1,126 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				130,
+				430
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "LuciferSarvLeft"
+		},
+		{
+			"offsets": [
+				130,
+				430
+			],
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "LuciferSarvLeft"
+		},
+		{
+			"offsets": [
+				55,
+				380
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "LuciferSarvDown"
+		},
+		{
+			"offsets": [
+				-6,
+				480
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "LuciferSarvUp"
+		},
+		{
+			"offsets": [
+				-6,
+				480
+			],
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "LuciferSarvUp"
+		},
+		{
+			"offsets": [
+				-10,
+				447
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "LuciferSarvRight"
+		},
+		{
+			"offsets": [
+				-10,
+				447
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "LuciferSarvRight"
+		},
+		{
+			"offsets": [
+				0,
+				360
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "LuciferSarvIdle"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/smokinhotbabe",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sarvente-lucifer",
+	"flip_x": false,
+	"healthbar_colors": [
+		218,
+		49,
+		125
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

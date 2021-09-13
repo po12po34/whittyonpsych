@@ -1,0 +1,137 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"loop": false,
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Sing Down",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"loop": false,
+			"anim": "singUP",
+			"fps": 24,
+			"name": "Sing Up",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": false,
+			"anim": "idle",
+			"fps": 24,
+			"name": "Idle",
+			"indices": []
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle-loop",
+			"indices": [
+				10,
+				11,
+				12,
+				12
+			],
+			"name": "Idle"
+		},
+		{
+			"offsets": [
+				-66,
+				-2
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "singUP-loop",
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"name": "Sing Up"
+		},
+		{
+			"offsets": [
+				-66,
+				-2
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Sing Right"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "Sing Left"
+		},
+		{
+			"offsets": [
+				-76,
+				0
+			],
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "Sing Right"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "Sing Left"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/WhittySprites",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "whitty",
+	"flip_x": false,
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}

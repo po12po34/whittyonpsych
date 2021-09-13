@@ -57,6 +57,12 @@ class MenuCharacter extends FlxSprite
 			case 'whitty':
 				frames = Paths.getSparrowAtlas('menucharacters/Menu_Whitty');
 				animation.addByPrefix('idle', "M Dad Idle", 24);
+
+			case 'sarvente':
+				frames = Paths.getSparrowAtlas('menucharacters/Menu_Sarvente');
+				animation.addByPrefix('idle', "M GF Idle", 24);
+
+
 		}
 		animation.play('idle');
 		updateHitbox();
@@ -82,6 +88,11 @@ class MenuCharacter extends FlxSprite
 
 			case 'senpai':
 				offset.set(60, -70);
+
+			case 'sarvente':
+				offset.set(0, -25);
+
+
 		}
 	}
 }

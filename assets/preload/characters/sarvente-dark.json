@@ -1,0 +1,170 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT-alt",
+			"loop": false,
+			"name": "SarvDarkLeft2"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN-alt",
+			"loop": false,
+			"name": "SarvDarkDown2"
+		},
+		{
+			"offsets": [
+				-80,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP-alt",
+			"loop": false,
+			"name": "SarvDarkUp2"
+		},
+		{
+			"offsets": [
+				-50,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT-alt",
+			"loop": false,
+			"name": "SarvDarkRight2"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "idle",
+			"loop": false,
+			"name": "SarvDarkIdle"
+		},
+		{
+			"offsets": [
+				0,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "SarvDarkLeft0"
+		},
+		{
+			"offsets": [
+				0,
+				-30
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singDOWN",
+			"loop": false,
+			"name": "SarvDarkDown0"
+		},
+		{
+			"offsets": [
+				-80,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singUP",
+			"loop": false,
+			"name": "SarvDarkUp0"
+		},
+		{
+			"offsets": [
+				-50,
+				0
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
+			"name": "SarvDarkRight0"
+		},
+		{
+			"offsets": [
+				-9,
+				10
+			],
+			"indices": [
+				12,
+				13,
+				14,
+				15
+			],
+			"fps": 24,
+			"anim": "singLEFT-loop",
+			"loop": true,
+			"name": "SarvDarkLeft"
+		},
+		{
+			"offsets": [
+				0,
+				27
+			],
+			"indices": [
+				15,
+				16,
+				17,
+				18
+			],
+			"fps": 24,
+			"anim": "singRIGHT-loop",
+			"loop": true,
+			"name": "SarvDarkRight"
+		},
+		{
+			"offsets": [
+				-6,
+				50
+			],
+			"indices": [
+				56,
+				57,
+				58,
+				59
+			],
+			"fps": 24,
+			"anim": "singUP-loop",
+			"loop": true,
+			"name": "SarvDarkUp"
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/sarvente_dark",
+	"position": [
+		0,
+		0
+	],
+	"healthicon": "sarvente",
+	"flip_x": false,
+	"healthbar_colors": [
+		246,
+		145,
+		197
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 6.1,
+	"scale": 1
+}
